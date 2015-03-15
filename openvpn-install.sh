@@ -307,6 +307,7 @@ else
 		echo "Looks like your server is behind a NAT!"
 		echo ""
 		echo "If your server is NATed (LowEndSpirit), I need to know the external IP"
+        echo "(A domain name is also accepted)"
 		echo "If that's not the case, just ignore this and leave the next field blank"
 		read -p "External IP: " -e USEREXTERNALIP
 		if [[ "$USEREXTERNALIP" != "" ]]; then
